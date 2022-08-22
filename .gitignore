@@ -1,0 +1,13 @@
+# Secrets
+.env
+
+# Logs
+*.log
+
+# Cache
+.cache
+*.pyc
+__pycache__
+
+# Misc
+.DS_Store
