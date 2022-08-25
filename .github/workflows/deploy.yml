@@ -47,7 +47,7 @@ jobs:
           entry_point: "hello_world"  # Name of the entrypoint function in main.py
           memory_mb: 256              # Max 8GB. Defaults to 256MB
           source_dir: cloud-function-demo   # Where main.py is located.
-          timeout: 240                # 540 max for 1st gen functions
+          timeout: 60                # 540 max for 1st gen functions
           region: "europe-west2"      # London
           https_trigger_security_level: "secure_always" # HTTPS only
           # Service account to use to invoke the cloud function.
@@ -55,7 +55,7 @@ jobs:
           env_vars: |-
             VAR1="This is an environment variable"
           secret_environment_variables: |-
-            SECRET1="projects/984300244589/secrets/my-secret/versions/1"
+            SECRET1=projects/984300244589/secrets/my-secret/versions/1
             
 
       # Example of using the output

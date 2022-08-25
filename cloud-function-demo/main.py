@@ -12,8 +12,8 @@ def hello_world(request):
     env_var = os.environ.get('VAR1')
     secret = os.environ.get('SECRET1')
 
-    response = greet() + "<br />"
-    response = response + "Env: " + env_var + "<br />"
+    # response = greet() + "<br />"
+    response = "Env: " + env_var + "<br />"
     response = response + "Secret: " + secret
 
     # Return a HTTP response
