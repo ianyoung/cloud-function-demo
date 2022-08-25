@@ -12,9 +12,9 @@ def hello_world(request):
     env_var = os.environ.get('VAR1')
     secret = os.environ.get('SECRET1')
 
-    # Import from another file
-    greeting = greet()
-    response = greeting + "\n" +  "Env var: " + env_var + "\n"
-    # Add secret:  + "Secret: " +  secret
+    response = greet() + "<br />"
+    response = response + "Env: " + env_var + "<br />"
+    response = response + "Secret: " + secret
 
+    # Return a HTTP response
     return response

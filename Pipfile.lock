@@ -26,10 +26,10 @@
         },
         "cloudevents": {
             "hashes": [
-                "sha256:078d646bec4a2145f7488ab8eec5171ec425e5633fe5e91ffcc9272857a19817",
-                "sha256:c49c0805672d180b6c52352244c64d1f8d6fe9e6c07cfb973618ca59a198ee97"
+                "sha256:3344e3c53a46bab1f30f3361d4cddd70628911849b960b31a1300a949da20553",
+                "sha256:b65b6babdc25881181387592e84fe2f2dc35369b0b686ff0cab87950ea0ea256"
             ],
-            "version": "==1.6.0"
+            "version": "==1.6.1"
         },
         "deprecation": {
             "hashes": [
@@ -142,11 +142,11 @@
         },
         "setuptools": {
             "hashes": [
-                "sha256:7f4bc85450898a09f76ebf28b72fa25bc7111f6c7d665d514a60bba9c75ef2a9",
-                "sha256:a3ca5857c89f82f5c9410e8508cb32f4872a3bafd4aa7ae122a24ca33bccc750"
+                "sha256:2e24e0bec025f035a2e72cdd1961119f557d78ad331bb00ff82efb2ab8da8e82",
+                "sha256:7732871f4f7fa58fb6bdcaeadb0161b2bd046c85905dbaa066bdcbcc81953b57"
             ],
             "markers": "python_version >= '3.7'",
-            "version": "==65.2.0"
+            "version": "==65.3.0"
         },
         "watchdog": {
             "hashes": [
