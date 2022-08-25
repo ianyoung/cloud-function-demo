@@ -55,7 +55,7 @@ jobs:
           env_vars: |-
             VAR1="This is an environment variable"
           secret_environment_variables: |-
-            SECRET1=projects/984300244589/secrets/my-secret/versions/latest
+            SECRET1=projects/984300244589/secrets/my-secret/versions/1
             
 
       # Example of using the output
