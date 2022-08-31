@@ -1,6 +1,6 @@
 
 
-def greet():
+def hello():
     """ 
     A simple greeting.
     """
